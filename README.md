@@ -20,6 +20,7 @@ coreos takes up 57 MB of RAM.
 # Comparison of Storage utilization
 
 ## rancher OS
+```
 Filesystem                Size      Used Available Use% Mounted on
 overlay                  18.6G      2.9G     14.7G  17% /
 tmpfs                   936.0M         0    936.0M   0% /dev
@@ -36,8 +37,10 @@ shm                      64.0M         0     64.0M   0% /host/dev/shm
 /dev/sda1                18.6G      2.9G     14.7G  17% /usr/sbin/iptables
 /dev/sda1                18.6G      2.9G     14.7G  17% /etc/hostname
 shm                      64.0M         0     64.0M   0% /dev/shm
+```
 
 ## alpine linux
+```
 Filesystem                Size      Used Available Use% Mounted on
 devtmpfs                 10.0M         0     10.0M   0% /dev
 shm                     995.2M         0    995.2M   0% /dev/shm
@@ -47,8 +50,10 @@ tmpfs                   398.1M    184.0K    397.9M   0% /run
 tmpfs                   995.2M         0    995.2M   0% /tmp
 cgroup_root              10.0M         0     10.0M   0% /sys/fs/cgroup
 /dev/vg0/lv_root         15.5G    409.7M     14.3G   3% /var/lib/docker
+```
 
 ## coreos
+```
 Filesystem      Size  Used Avail Use% Mounted on
 devtmpfs        4.0M     0  4.0M   0% /dev
 tmpfs           985M     0  985M   0% /dev/shm
@@ -57,6 +62,7 @@ tmpfs           394M  5.7M  389M   2% /run
 tmpfs           985M     0  985M   0% /tmp
 /dev/sda3       350M  183M  145M  56% /boot
 tmpfs           197M     0  197M   0% /run/user/1000
+```
 
 Note Alpine linux uses the least storage.
 
