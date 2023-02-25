@@ -5,6 +5,8 @@ Evaluation 3 COntainer Host OS
 - apline linux
 - fedora coreos
 
+Read the wiki pages for the setup of each of the OS.
+
 # Comparison on VirtualBox
 
 Each of the container OS is setup with 2 GB of RAM, 2 x vcpu and 20 GB of storage.
