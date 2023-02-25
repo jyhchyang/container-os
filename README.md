@@ -17,7 +17,7 @@ racherOS has the smallest footprint of 44.6 MB
 alpine linux has the largest footprint of 62.9 MB.
 coreos takes up 57 MB of RAM.
 
-# Comparison of Storage utilization
+# Comparison on Storage utilization
 
 ## rancher OS
 ```
