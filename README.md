@@ -1,4 +1,4 @@
-# Docker Command
+# Docker Commands
 
 ## Manage Docker Containers
 
